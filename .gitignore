@@ -1,0 +1,60 @@
+# Игнорирование системных файлов
+.DS_Store
+Thumbs.db
+
+# Игнорирование файлов IDE и редакторов
+.vscode/
+.idea/
+
+# Игнорирование системных файлов Git
+.git/
+
+# Игнорирование контейнеров разработки
+.devcontainer/
+
+# Игнорирование пакетов Composer
+/vendor/
+
+# Игнорирование компилированных ресурсов и временных файлов
+/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Игнорирование папок сборки Bootstrap (если используется)
+bootstrap/cache/
+
+# Игнорирование конфигурационных файлов
+config/*.local.php
+config/*.env
+
+# Docker файлы и папки
+docker/
+docker-compose.yml
+
+# Игнорирование пользовательских файлов
+/feip/
+/modules/
+/plugins/
+/storage/
+/themes/
+
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Исключаем файлы, которые могут требоваться в проекте
+!.env.example
+!.gitignore
+
+# Игнорирование файлов журналов и кэша
+*.log
+*.cache
+
+# Игнорирование временных файлов ОС
+*.swp
+*.swo
+*.bak
+*.tmp
